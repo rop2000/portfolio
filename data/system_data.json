@@ -1,7 +1,7 @@
 {
 	"about": "<p>Hi, I'm Rohan, I make web things. I am a sophomore at the <a href='https://uconn.edu/'> University of Connecticut </a> with a passion for MERN development, data analytics and anything creative. Contact me via the following options, I'd love to hear what you're working on :- <br/><a href='mailto:rohan.2.parikh@uconn.edu?subject=Hi%20Rohan!%20%E2%9C%8B'>Email</a><a href='https://github.com/rop2000'>Github</a><a href='https://www.linkedin.com/in/rohanparikh1/'>LinkedIn</a><a href='https://www.reddit.com/message/compose/?to=Ropirito&subject=Hi%20Ropirito!%20%E2%9C%8B'>Reddit</a><a href=''>Discord</a><a href='https://t.me/parikh_rohan'>Telegram</a></p>",
 	"skills": "<p>My skills include:- <ul><li>ReactJS</li><li>NodeJS</li><li>Python</li><li>SAS</li></ul></p>",
-	"label": "<p>CSE Student & AI/ML Engineering Intern</p>",
+	"title": "<p>CSE Student & AI/ML Engineering Intern</p>",
 	"location": "<p>Farmington, CT</p>",
 	"education": "<p>2018-2022 University of Connecticut, Storrs, CT</p>",
 	"rohanparikh": "<p>about.txt <br> skills.txt<br> location.txt<br> label.txt<br> eucation.txt<br></p>",
