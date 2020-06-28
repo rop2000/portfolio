@@ -9,7 +9,7 @@ const errors = {
 }
 
 const struct = {
-  rohanparikh: ['about', 'skills', 'label', 'location', 'education']
+  rohanparikh: ['about', 'skills', 'title', 'location', 'education']
 }
 
 const commands = {}
