@@ -89,6 +89,30 @@ commands.cat = commands.Cat = (filename) => {
   return errors.fileNotFound
 }
 
+commands.secs = commands.Secs = () => {
+ // window.location.replace("https://www.mypokecard.com/en/Gallery/my/galery/YNNTD7no50AO.jpg");
+  //return 'Yes'
+  return `<img src="https://www.mypokecard.com/en/Gallery/my/galery/YNNTD7no50AO.jpg" />`
+}
+
+commands.colorme = commands.ColorMe = () => {
+  var i;
+  var bg;
+  for(i = 0; i < 100; i++){
+    bg = randbg();
+    document.getElementById("body").style.background = bg;
+    document.getElementById("terminal").style.background = bg;
+  }
+ /* Times out */
+  var tick = function(i) {
+    return function() {
+        console.log(i);
+    }
+  };
+  setTimeout(tick(i), 1 * i);
+
+}
+
 // initialize cli
 $(() => {
   registerFullscreenToggle()
@@ -100,3 +124,13 @@ $(() => {
     systemData = data
   })
 })
+
+// random rgb value 
+function randbg(){
+  var r = Math.floor(Math.random() * 256);
+  var g = Math.floor(Math.random() * 256);
+  var b = Math.floor(Math.random() * 256);
+  var bgColor = "rgb(" + r + "," + g + "," + b + ")";
+  console.log(bgColor + " is the new background color.");
+  return bgColor;
+}
