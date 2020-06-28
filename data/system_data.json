@@ -4,7 +4,7 @@
 	"title": "<p>CSE Student & AI/ML Engineering Intern</p>",
 	"location": "<p>Farmington, CT</p>",
 	"education": "<p>2018-2022 University of Connecticut, Storrs, CT</p>",
-	"rohanparikh": "<p>about.txt <br> skills.txt<br> location.txt<br> label.txt<br> eucation.txt<br></p>",
+	"rohanparikh": "<p>about.txt <br> skills.txt<br> location.txt<br> title.txt<br> eucation.txt<br></p>",
 	"help": "<div> <ul> <li><strong>cat FILENAME</strong> - display FILENAME in window</li><li><strong>ls</strong> - show files in current directory</li><li><strong>history</strong> - see your command history</li><li><strong>clear</strong> - clear current window</ul></div>"
 }
 
